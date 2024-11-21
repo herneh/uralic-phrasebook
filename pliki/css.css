@@ -4,9 +4,14 @@
 @font-face {font-family: gent; src: url(GentiumBookPlus700.woff2); font-style: normal; font-weight: bold;}
 @font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
 
+@font-face {font-family: char; src: url(CharisSIL400.woff2); font-style: normal; font-weight: normal;}
+@font-face {font-family: char; src: url(CharisSIL401.woff2); font-style: italic; font-weight: normal;}
+@font-face {font-family: char; src: url(CharisSIL700.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: char; src: url(CharisSIL701.woff2); font-style: italic; font-weight: bold;}
+
 body {
 background: #ffffff; color: #334155; /*slate 700*/
-font: 12pt/1.5 gent, sans-serif;
+font: 12pt/1.5 char, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
