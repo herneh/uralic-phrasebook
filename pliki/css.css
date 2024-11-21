@@ -1,8 +1,8 @@
 
-@font-face {font-family: gent; src: url(gentiumplus400.woff2); font-style: normal; font-weight: normal;}
-@font-face {font-family: gent; src: url(gentiumplus401.woff2); font-style: italic; font-weight: normal;}
-@font-face {font-family: gent; src: url(gentiumplus700.woff2); font-style: normal; font-weight: bold;}
-@font-face {font-family: gent; src: url(gentiumplus701.woff2); font-style: italic; font-weight: bold;}
+@font-face {font-family: gent; src: url(GentiumPlus400.woff2); font-style: normal; font-weight: normal;}
+@font-face {font-family: gent; src: url(GentiumPlus401.woff2); font-style: italic; font-weight: normal;}
+@font-face {font-family: gent; src: url(GentiumBookPlus700.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
 
 @font-face {font-family: wulf; src: url(ulfilas700.otf); font-style: normal; font-weight: bold;}
 
@@ -20,10 +20,8 @@ b:lang(got).cyfra2 {text-decoration-line: overline;}
 .kol2 {columns: 2;} .kol3 {columns: 3;}
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
 
-a:link, a:visited {color: #0ea5e9; text-decoration: none;} /*sky 500*/
+a:link, a:visited {color: #0ea5e9; text-decoration: underline;} /*sky 500*/
 a:hover, a:active {color: #f43f5e; text-decoration: underline;} /*rose 500*/
-
-h1, h2, h3, h4, h5, h6 {font-size: 1em;}
 
 figure {margin: 0;} figcaption {font-size: small; text-align: center;}
 
