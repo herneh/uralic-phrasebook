@@ -1,13 +1,13 @@
-/* najpierw zmiany w arkuszu dla projektu „jylme” */
+/* no changes here; instead, copy from “jylme” */
 
-@font-face {font-family: char; src: url(CharisSIL400.woff2); font-style: normal; font-weight: normal;}
-@font-face {font-family: char; src: url(CharisSIL401.woff2); font-style: italic; font-weight: normal;}
-@font-face {font-family: char; src: url(CharisSIL700.woff2); font-style: normal; font-weight: bold;}
-@font-face {font-family: char; src: url(CharisSIL701.woff2); font-style: italic; font-weight: bold;}
+@font-face {font-family: gent; src: url(GentiumPlus400.woff2); font-style: normal; font-weight: normal;}
+@font-face {font-family: gent; src: url(GentiumPlus401.woff2); font-style: italic; font-weight: normal;}
+@font-face {font-family: gent; src: url(GentiumBookPlus700.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: gent; src: url(GentiumBookPlus701.woff2); font-style: italic; font-weight: bold;}
 
 body {
 background: #ffffff; color: #334155; /*slate 700*/
-font: 12pt/1.5 char, sans-serif;
+font: 12pt/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 1em;
 }
@@ -15,11 +15,13 @@ margin: 0 auto; max-width: 40em; padding: 1em;
 .kol2 {columns: 2;} .kol3 {columns: 3;}
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
 
-a:link, a:visited {color: #0369a1; text-decoration: underline;} /*sky 500*/
-a:hover, a:active {color: #be123c; text-decoration: underline;} /*rose 500*/
+a:link, a:visited {color: #0369a1; text-decoration: underline;} /*sky 700*/
+a:hover, a:active {color: #be123c; text-decoration: underline;} /*rose 700*/
 
 audio {display: block;}
+
 figure {margin: 0;} figcaption {font-size: small; margin-bottom: 1em; text-align: center;}
+
 hr {margin: 1em 0;}
 
 table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100%;}
@@ -27,7 +29,7 @@ table, th, td {border: thin solid #cbd5e1; padding: 0.2em 0.5em;} /*slate 300*/
 th {background: #f1f5f9;} /*slate 100*/
 th, td {vertical-align: top;}
 
-/* paleta kolorów
+/* paleta
 #be123c rose 700
 #f43f5e rose 500
 #b45309 amber 700
