@@ -15,8 +15,8 @@ margin: 0 auto; max-width: 40em; padding: 1em;
 .kol2 {columns: 2;} .kol3 {columns: 3;}
 .wys {margin: 1em 0;} .wys p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
 
-a:link, a:visited {color: #0369a1; text-decoration: underline;} /*sky 700*/
-a:hover, a:active {color: #be123c; text-decoration: underline;} /*rose 700*/
+a:link, a:visited {color: #0ea5e9; text-decoration: underline;} /*sky 500*/
+a:hover, a:active {color: #f43f5e; text-decoration: underline;} /*rose 500*/
 
 audio {display: block;}
 
