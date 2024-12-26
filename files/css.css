@@ -28,18 +28,3 @@ table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100
 table, th, td {border: thin solid #cbd5e1; padding: 0.2em 0.5em;} /*slate 300*/
 th {background: #f1f5f9;} /*slate 100*/
 th, td {vertical-align: top;}
-
-/* paleta
-#be123c rose 700
-#f43f5e rose 500
-#b45309 amber 700
-#f59e0b amber 500
-#4d7c0f lime 700
-#84cc16 lime 500
-#0369a1 sky 700
-#0ea5e9 sky 500
-#334155 slate 700
-#64748b slate 500
-#cbd5e1 slate 300
-#f1f5f9 slate 100
-*/
